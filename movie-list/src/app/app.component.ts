@@ -9,7 +9,6 @@ import {MovieService} from './movie.service';
 export class AppComponent {
 
   movies=[] as any;
-  // title = 'movie-list';
 
   constructor(private movieService: MovieService)
   {
